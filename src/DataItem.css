@@ -1,0 +1,16 @@
+div.data-item {
+    display: flex; 
+    flex: 1;
+    padding: 12px 0;
+}
+  
+span.data-name {
+flex: 1;
+}
+
+.data-image {
+    padding: 0 12px 0 0;
+    img {
+        height: 50px;
+    }
+}

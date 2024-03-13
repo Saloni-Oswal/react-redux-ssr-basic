@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div#clock-container {
+  padding: 15px;
+}
+
+div.app {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  padding: 12px;
+}
+
+div#root {
+  display: flex;
+}
+
+div.data-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
